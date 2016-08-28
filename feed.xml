@@ -3,10 +3,10 @@
   <channel>
     <title>Pioneers in Engineering</title>
     <description></description>
-    <link>http://pioneers.berkeley.edu/</link>
-    <atom:link href="http://pioneers.berkeley.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Aug 2016 07:20:06 +0000</pubDate>
-    <lastBuildDate>Sun, 28 Aug 2016 07:20:06 +0000</lastBuildDate>
+    <link>http://viviehn.github.io/website/</link>
+    <atom:link href="http://viviehn.github.io/website/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 28 Aug 2016 07:25:08 +0000</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2016 07:25:08 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -38,8 +38,8 @@ Eduardo Navarro is the winner of the 2016 PiE Alumni Scholarship. His energy and
 
 </description>
         <pubDate>Sun, 01 May 2016 22:11:17 +0000</pubDate>
-        <link>http://pioneers.berkeley.edu/2016,/scholarship/2016/05/01/scholarship-winners.html</link>
-        <guid isPermaLink="true">http://pioneers.berkeley.edu/2016,/scholarship/2016/05/01/scholarship-winners.html</guid>
+        <link>http://viviehn.github.io/website/2016,/scholarship/2016/05/01/scholarship-winners.html</link>
+        <guid isPermaLink="true">http://viviehn.github.io/website/2016,/scholarship/2016/05/01/scholarship-winners.html</guid>
         
         
         <category>2016,</category>
@@ -59,8 +59,8 @@ Eduardo Navarro is the winner of the 2016 PiE Alumni Scholarship. His energy and
 &lt;p&gt;Initial ideas for the monitors include constructing an interactive terminal for competing teams, allowing judges to easily update scores via touch, supplying a bird’s eye view of the field to competing teams, or creating a kiosk for teams to check scores and statistics.  No matter what the field control team settles on, the monitors will open up a wide range of new competitive and educational options for PiE and will provide cool new capabilities for teams.&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Nov 2015 12:11:17 +0000</pubDate>
-        <link>http://pioneers.berkeley.edu/google/2015/11/09/Google-Monitors.html</link>
-        <guid isPermaLink="true">http://pioneers.berkeley.edu/google/2015/11/09/Google-Monitors.html</guid>
+        <link>http://viviehn.github.io/website/google/2015/11/09/Google-Monitors.html</link>
+        <guid isPermaLink="true">http://viviehn.github.io/website/google/2015/11/09/Google-Monitors.html</guid>
         
         
         <category>google</category>
@@ -86,8 +86,8 @@ Eduardo Navarro is the winner of the 2016 PiE Alumni Scholarship. His energy and
 &lt;p&gt;Needless to say, our 2015-2016 season is well underway and we cannot wait to invite all of our high school students to compete in the 2016 Robotics Competition in the spring.&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Oct 2015 12:11:17 +0000</pubDate>
-        <link>http://pioneers.berkeley.edu/annual/report/final/competition/scholarship/2015/10/31/annual-report.html</link>
-        <guid isPermaLink="true">http://pioneers.berkeley.edu/annual/report/final/competition/scholarship/2015/10/31/annual-report.html</guid>
+        <link>http://viviehn.github.io/website/annual/report/final/competition/scholarship/2015/10/31/annual-report.html</link>
+        <guid isPermaLink="true">http://viviehn.github.io/website/annual/report/final/competition/scholarship/2015/10/31/annual-report.html</guid>
         
         
         <category>annual</category>
@@ -131,8 +131,8 @@ Our $1500 scholarship winner this year was Pedro Becerra. Pedro passed through s
 &lt;a href=&quot;https://give.berkeley.edu/egiving/index.cfm?Fund=FN3231000&quot;&gt;Give to Cal website&lt;/a&gt;. At the bottom of the form, please write “Scholarship” in the field titled “Special instructions or designations for this gift”.&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Jun 2015 12:11:17 +0000</pubDate>
-        <link>http://pioneers.berkeley.edu/alumni/application/kickoff/scholarship/workshop/2015/06/06/Scholarship.html</link>
-        <guid isPermaLink="true">http://pioneers.berkeley.edu/alumni/application/kickoff/scholarship/workshop/2015/06/06/Scholarship.html</guid>
+        <link>http://viviehn.github.io/website/alumni/application/kickoff/scholarship/workshop/2015/06/06/Scholarship.html</link>
+        <guid isPermaLink="true">http://viviehn.github.io/website/alumni/application/kickoff/scholarship/workshop/2015/06/06/Scholarship.html</guid>
         
         
         <category>alumni</category>
@@ -194,8 +194,8 @@ Our $1500 scholarship winner this year was Pedro Becerra. Pedro passed through s
 &lt;p&gt;&lt;a href=&quot;https://www.facebook.com/media/set/?set=a.804406772975143.1073741840.121487711267056&amp;amp;type=1&quot;&gt;Click here for the 2015 robots&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Apr 2015 12:11:17 +0000</pubDate>
-        <link>http://pioneers.berkeley.edu/alumni/application/kickoff/scholarship/workshop/2015/04/28/competition-awards.html</link>
-        <guid isPermaLink="true">http://pioneers.berkeley.edu/alumni/application/kickoff/scholarship/workshop/2015/04/28/competition-awards.html</guid>
+        <link>http://viviehn.github.io/website/alumni/application/kickoff/scholarship/workshop/2015/04/28/competition-awards.html</link>
+        <guid isPermaLink="true">http://viviehn.github.io/website/alumni/application/kickoff/scholarship/workshop/2015/04/28/competition-awards.html</guid>
         
         
         <category>alumni</category>
@@ -222,8 +222,8 @@ Our $1500 scholarship winner this year was Pedro Becerra. Pedro passed through s
 &lt;p dir=&quot;ltr&quot;&gt;On the software front, we are taking a step in uploading matches with audio. Because we play non-royalty-free music at our events, we can&amp;rsquo;t upload the raw video stream to youtube without copyright infringement on the music. To this end, we are recording the microphone audio exclusively using Audacity, and using the resultant audio with our uploaded videos.&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Get excited!&lt;/strong&gt;&lt;/p&gt;</description>
         <pubDate>Tue, 17 Mar 2015 12:00:00 +0000</pubDate>
-        <link>http://pioneers.berkeley.edu/sponsorship/cctv/livestream/cameras/2015/03/17/new-livestreaming-systems.html</link>
-        <guid isPermaLink="true">http://pioneers.berkeley.edu/sponsorship/cctv/livestream/cameras/2015/03/17/new-livestreaming-systems.html</guid>
+        <link>http://viviehn.github.io/website/sponsorship/cctv/livestream/cameras/2015/03/17/new-livestreaming-systems.html</link>
+        <guid isPermaLink="true">http://viviehn.github.io/website/sponsorship/cctv/livestream/cameras/2015/03/17/new-livestreaming-systems.html</guid>
         
         
         <category>sponsorship</category>
