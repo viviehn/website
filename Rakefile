@@ -1,4 +1,3 @@
-
 GH_PAGES_DIR = "compiled_site"
 ORIGIN_REPO = "https://github.com/viviehn/website.git"
 
