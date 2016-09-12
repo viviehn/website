@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>An Inside Look into PiE's 2013 Challenge: Cube Route</title>
+  <meta name="description" content=" Set deep in the Pioneers in Engineering organizational structure, there exists a very secretive group-- the Game Design Committee (GDC). Every season, GDC c...">
+
+  <link rel="stylesheet" href="/website/assets/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/website/assets/main.css">
+  <link rel="stylesheet" href="/website/assets/css/ekko-lightbox.css">
+  <link rel="icon" href="/website/favicon.ico" type="image/x-icon" />
+
+
+  <link rel="canonical" href="http://viviehn.github.io/website/blog/2013/03/16/Cube-Route">
+  <link rel="alternate" type="application/rss+xml" title="Pioneers in Engineering" href="http://viviehn.github.io/website/feed.xml" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/website/assets/javascripts/bootstrap.min.js"></script>
+  <script src="/website/assets/javascripts/ekko-lightbox.min.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-35543006-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div style="float:left;"> <!-- Makes sure the title doesn't go all the way right -->
+        <img style="width:50px;" src="/website/titleicon.png">
+        <a style="float:right;" class="navbar-brand" href="/website/"> <!-- Makes the title right of the icon, default is otherwise -->
+          <!-- <img alt="Brand" src="http://pioneers.allen.li/graphics/general/logos/Logo_vectorized.svg"> -->
+          <div id="title">Pioneers in Engineering</div>
+          <div id="small-title">PiE</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="/website/about/team.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/website/about/about-us.html">About Us</a></li>            
+            <li><a href="/website/about/team.html">The PiE Team</a></li>
+            <li><a href="/website/about/foundation.html">Foundation</a></li>
+            <li><a href="/website/about/gallery.html">Gallery</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/website/programs/rc-spring.html">Robotics Competition</a></li>
+            <li><a href="http://pioneers.github.io/opensource/index.html">Open Source <i class="fa fa-external-link"></i></a></li>
+            <li><a href="/website/programs/past-programs.html">Past Programs</a></li>
+            <li><a href="/website/programs/scholarship.html">Scholarship</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/website/get-involved/start-team.html">Start a Team</a></li>
+            <li><a href="/website/get-involved/join-staff.html">Join PiE Staff</a></li>
+            <li><a href="/website/get-involved/become-mentor.html">Become a Mentor</a></li>
+            <li><a href="/website/get-involved/volunteer.html">Volunteer</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support PiE <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/website/support-pie/donate.html">How You Can Help</a></li>
+            <li><a href="/website/support-pie/sponsors.html">List of Sponsors</a></li>
+          </ul>
+        </li>
+        <li><a href="/website/blog">Blog</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+      <meta property="og:title" content="An Inside Look into PiE's 2013 Challenge: Cube Route" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://viviehn.github.io/blog/2013/03/16/Cube-Route" />
+<meta property="og:image" content="http://viviehn.github.io/assets/images/blog/" />
+
+<div class="container">
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">An Inside Look into PiE's 2013 Challenge: Cube Route</h1>
+      <p class="post-meta"> Written by PiE Team on Mar 16, 2013</p>
+    </header>
+
+    <article class="post-content">
+    	<div class="container-fluid">
+	    	<div class="row">
+	    		<div class="col-md-7">
+	      			<div style="position: relative;"><img class="ratio" style="width: 100%; height: auto; display: block;" src="http://placehold.it/16x9" alt="" /> <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="http://www.youtube.com/embed/-TyP9bDbEp8?feature=player_embedded" frameborder="0"></iframe></div>
+<p>Set deep in the Pioneers in Engineering organizational structure, there exists a very secretive group-- the Game Design Committee (GDC). Every season, GDC creates the PiE Robotics game, from its very early concept all the way down to field and game piece design and construction. &nbsp;</p>
+<p>In this post, Ayzaan Wahid, a member in GDC, gives us the gist of this years game and what PiE expects to see from students this season.</p>
+<p>This year's game, <em>Cube Route</em>, was released during <a href="/blog/2013/03/14/2013-Game-Day/">Game Day</a>. The main objective of the game is to obtain cube-shaped game pieces from one side of the field and transport them across the field to goal zones. Simple enough. However, like any good game, there are plenty of twists to keep teams on their toes.&nbsp;</p>
+<p><strong>The Field</strong></p>
+<p>One of the key curveballs in this years game is how to build a robot that can effectively navigate this year's game field.</p>
+<ul>
+<li>
+<p>First of all, obtaining cubes might not be as easy as it sounds-- teams must retrieve cubes from <strong>vertical dispensers</strong>, two of which are recessed into the field wall, and the other two of which are raised 6 inches off the ground. We want to see students build effective mechanical manipulators to quickly retrieve cubes from both the raised and recessed platforms.</p>
+</li>
+<li>
+<p>There are two walls in the middle of the field that create a <strong>5-foot choke point.</strong> This smaller field tests the drivers' ability and allows interaction between the two alliances. We hope this tight squeeze will make for some exciting matches.</p>
+</li>
+<li>
+<p>Another field feature which you might have noticed are the <strong>speed bumps</strong>. There are two rounded speed bumps that are situated from the end of the choke point walls to the outer goal zone walls. These tricky obstacles will make for some bumpy rides for some teams-- unless, that is, teams are able to create effective and robust drivetrains that can navigate these obstacles! After all, there are plenty of parts in this years kit extension that will allow this.</p>
+</li>
+<li>
+<p>At the near side of the field are the four goal zones, two for each team. There are walls separating the separate goal zones. The actual goals themselves are 8 inch square holes in the walls dead center in each goal zone. The 6 inch cubes will have to be aligned pretty well to fit in the goal. They wont go in diagonally, as Pythagoras would be quick to point out!</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Game Pieces</strong></p>
+<p>One of the coolest parts of this year's game is the game pieces: twenty 6-inch bright green cubes. However, there is more than meets the eye! These cubes have<em>&nbsp;RFID tags embedded in them</em> that are scannable by RFID readers that are included in this years robot kit. These cubes are identical, but one cube in each dispenser happen to be <strong>multiplier cubes. </strong>These special cubes will multiply the total point value of all cubes scored before the multiplier cube in that particular goal. The only way to tell these cubes apart is to scan them with the RFID reader. Being able to scan the multiplier cubes and adequately deal with them can give a team a huge advantage in this years game, and we want teams to make heavy use of this sensor. With RFID and this years autonomous mode, teams' programmers will have their work cut out for them.</p>
+<p>The other game piece this year are&nbsp;<strong>bonus die. </strong>There are two die on the field during each match. One of the dice has 4 blue and 2 gold sides, while the other has 4 gold and 2 blue sides. There are number values on each side of the dice. At the start of each match, the die start in a neutral configuration. Throughout the match, teams may flip the dice to earn points for their own team while also preventing the other alliance from earning points. The position of the dice only matters at the very end of the game.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Autonomous</strong></p>
+<p>This year's autonomous mode involves passing through a set of checkpoints to ultimately end up in the dispenser zone. Teams must program their robot to first drive out of their goal zone, then pass the rounded speed bump, then finally pass the choke point opening to get the full autonomous points.</p>
+<p>Teams may get creative in the way they accomplish this, so we expect to see some novel ideas.</p>
+<p>We require every team this year to have an autonomous function on their robot. There are plenty of sensors in this years kit that will help teams score some points during the 20 second autonomous period. There are even retroreflective lines on the field to help teams get to the dispenser zone, if teams so happen to use the line following sensors. What we do not want to see if a robot sitting still during the autonomous session, so robot that remains in its goal zone after the period ends will receive <em>-5 points</em>! Start coding, programmers!</p>
+<p><strong>Teleoperated Period</strong></p>
+<p>After 20 seconds of intense autonomous action, there will be the 2 minute teleoperated period, where drivers will take control of their robots. The objective here is simple-- score as many cubes as possible, and maintain control of the bonus die. Drivers must take special care in handling the multiplier cubes. We expect to see some creative strategies between alliances, making for one of the most intense teleoperated periods in the history of PiE.</p>
+<p>Overall, we're super excited for Cube Route. It will be a very fun and challenging game - for drivers, team members, spectators, and robots alike. Teams have their kits, and 7 weeks to build their robots. We're excited for each and every match and hope to see some awesome robots playing Cube Route come April.</p>
+<p>&nbsp;</p>
+
+	      		</div>
+	      		<div class="col-md-5">
+            
+	      		</div>
+	  		</div>
+    	</div>
+    </article>
+  </div>
+</div>
+
+    <!-- TODO: The footer probably has some legal cruft associated with it. Should consult Foundation -->
+<footer class="site-footer">
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="contact-list">
+          <li>Pioneers in Engineering</li>
+          <li><script type="text/javascript"> document.write('<a style="unicode-bidi: bidi-override; direction: rtl;" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;leadership&#64;pioneers&#46;berkeley&#46;edu">ude&#46;yelekreb&#46;sreenoip&#64;pihsredael</a>');</script></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/pioneers" target="_blank">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/PieRobotics" target="_blank">
+              <i class="fa fa-twitter fa-2x"></i>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://facebook.com/pierobotics" target="_blank">
+              <i class="fa fa-facebook fa-2x"></i>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://youtube.com/user/pierobotics" target="_blank">
+              <i class="fa fa-youtube-play fa-2x"></i>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://instagram.com/pierobotics" target="_blank">
+              <i class="fa fa-instagram fa-2x"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <div class="footer-description">
+          <div class="description-wrap">
+            <p>© Pioneers in Engineering Foundation 2016.
+</p>
+            <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
